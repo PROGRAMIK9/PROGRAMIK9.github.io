@@ -27,7 +27,7 @@ body{
     box-sizing:border-box;
     padding: 5%;
     margin-top: 35%;
-    opacity:0.7
+    opacity:0.7;
 }
 .hidden {
     visibility: hidden;
@@ -77,7 +77,7 @@ body{
 @media (min-width:250px) and (max-width:700px) {
     .gif{
         position: absolute;
-        bottom: 25px!important;
+        bottom: 10%!important;
         }
         .Hello, .Val, .Person, .WIll {
             
