@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    background-color: pink;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+.question{
+    text-align: center;
+    background-color: palevioletred;
+    width: 80vmin;
+    height: 60vmin;
+    border-radius: 10%;
+    box-sizing:border-box;
+    padding: 5%;
+    margin-top: 35%;
+}
+.hidden {
+    visibility: hidden;
+}
+.Hello, .Val, .Person, .WIll {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 2rem;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top:10%;
+    font-size: 1.2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.Yes{
+    height:10vmin;
+    width:20vmin;
+    background-color:purple;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+}
+#No{
+    height:10vmin;
+    width:20vmin;
+    background-color:purple;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.gif{
+    position: absolute;
+}
+
+.gif img{
+    height:30vh;
+}
+
+.Yes:hover,#No:hover{
+    background-color: palevioletred;
+    color:white;
+}
+
+@media (min-width:300px) and (max-width:391px) {
+    .gif{
+        position: absolute;
+        bottom: 0!important;
+        }
+        .Hello, .Val, .Person, .WIll {
+            
+            font-size: 1rem;
+        }
+}
